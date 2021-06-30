@@ -3,8 +3,8 @@ package entity
 import uuid "github.com/satori/go.uuid"
 
 type Product struct {
-	ID 		string
-	Name	string
+	ID   string `json:"id,omitempty"`
+	Name string `json:"name,omitempty"`
 }
 
 func NewProduct () *Product {
