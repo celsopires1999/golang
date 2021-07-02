@@ -1,2 +1,6 @@
-image:
-  file: .gitpod.Dockerfile
+tasks:
+  -init: go install github.com/spf13/cobra/cobra@latest
+
+vscode:
+  extensions:
+    - golang.go
